@@ -1,6 +1,6 @@
 :root{
 	--dark-grey: #333333;;
-	--lighter-grey: hsl(0, 0%, 100%);
+	--white: hsl(0, 0%, 100%);
 	--btncolor: rgb(220, 147, 11);
 	--grey:#3A3A3F;
 	--orange:#E26503;
@@ -51,17 +51,19 @@ li a{
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 15px;
+	width: 95px;
 	
 
 
 }
-.activ{
-	color: var(--btncolor);
-}
+
+
+
+
 
 
 li a:hover{
-	font-size: 25px;
+	font-size: 23px;
 	color: var(--dark-grey);
 	background-color: var(--lighter-grey);
 	border-color:var(--btncolor);
@@ -180,13 +182,17 @@ box-shadow: 0 0 15px var(--btncolor);
 
 /* ------------------About-Start---------------------------------- */
 .container-about{
-	height: 100vh;
+	height: 90vh;
 	width: 100vw;
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--grey)
 	
 	
+}
+.h1-about{
+	margin-top: 15px;
+	color: var(--orange);
 }
 
 .about-me-h1{
@@ -206,7 +212,7 @@ box-shadow: 0 0 15px var(--btncolor);
 	font-size: 25px;
 	margin: 15px;
 	line-height: 30px;
-	margin-top: 15%;
+	margin-top: 35px;
 }
 
 
@@ -215,7 +221,7 @@ box-shadow: 0 0 15px var(--btncolor);
 /*------------------Project-----------------------------------------*/
 
 .container-project{
-	height: 100vh;
+	height: 80vh;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
@@ -230,7 +236,7 @@ box-shadow: 0 0 15px var(--btncolor);
 	border-radius: 2%;
 	box-shadow: 0 0 20px var(--grey);
 	width: 30%;
-	height: 50%;
+	height: 70%;
 	margin-top: 13%;
 	text-align: center;
 	background-color: var(--dark-grey);
@@ -239,12 +245,79 @@ box-shadow: 0 0 15px var(--btncolor);
 
 }
 
+.project-p{
+	font-size: 25px;
+	margin-top: 35px;
+}
+
 .main-h1{
 	text-align: center;
 	background-color: var(--grey);
-	color: var(--light-grey);
+	color: var(--white);
+		
+}
+.h1-project{
+	color: var(--orange);
+}
+/*--------------------projects-End----------------------------------------*/
+
+/*--------------------contact-----------------------------------------------*/
+.div-contact{
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--grey);
+	
+
+}
+.btn-contact{
+		display: flex;
+		flex-direction: column;
+		
+	}
+
+	.div-input{
+		margin-top: 20px;
+	}
+
+.span-contact{
 	
 }
+
+
+
+
+
+
+
+
+
+
+	footer{
+		height: 8vh;
+		background-color: var(--dark-grey);
+	}
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -257,11 +330,12 @@ box-shadow: 0 0 15px var(--btncolor);
 		background-color: #dc2c2c;
 	}
 	.container-web{
-		width: 57vh;
+		width: 87vh;
 	}
 
 	.nav-container{
-		width: 100%;
+		width: 87vh;
+		
 	}
 	.container{
 		width: 100%;
@@ -280,7 +354,7 @@ box-shadow: 0 0 15px var(--btncolor);
 	align-items: center;
 	justify-content: center;
 	height: 100%;
-	width: 57vh;
+	width: 87vh;
 }
 
 .about-me-h1{
@@ -299,6 +373,9 @@ box-shadow: 0 0 15px var(--btncolor);
 	font-size: 10px;
 	margin-top: 5px;
 }
+.project-div{
+	width: 87vh;
+}
 
 
 #welcome-me{
@@ -315,6 +392,8 @@ box-shadow: 0 0 15px var(--btncolor);
 		height: 30vh;
 	
 	}
+
+	.container
 }
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
