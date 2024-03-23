@@ -275,8 +275,7 @@ box-shadow: 0 0 15px var(--btncolor);
 	justify-content: center;
 	background-color: var(--grey);
 	animation: rotation 8s infinite linear;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 25px;
 	
   }
   /*---------------makes the arrow spin----------------*/
@@ -320,6 +319,7 @@ box-shadow: 0 0 15px var(--btncolor);
   .btn-submit{
 	padding-left: 37px;
 	padding-right: 37px;
+	width: 200px;
 
   }
   .btn-submit:focus{
@@ -334,6 +334,22 @@ box-shadow: 0 0 15px var(--btncolor);
 	transition: 0.6s;
 	border: none;
   }
+
+  label{
+	padding-left: 20px;
+	padding-right: 20px;
+	color: var(--btncolor);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.arrow-form{
+	padding-right: 5.5px;
+	rotate: -90deg;
+	width: 20px;
+}
+
+
   
 
 
