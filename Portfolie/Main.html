@@ -19,18 +19,17 @@
 				<ul>
 					<li class="list-item"><a href="#hero-me" class="active1 active6">Home</a></li>
 					<li class="list-item"><a href="#about" class="active2 active6">About</a></li>
-					<li class="list-item"><a href="#main-h1" class="active3 active6">Projects</a></li>
-					<li class="list-item"><a href="#" class="active4 active6">Socia</a></li>
-					<li class="list-item"><a href="#" class="active5 active6">Contact</a></li>
+					<li class="list-item"><a href="#hej" class="active3 active6">Projects</a></li>
+					<li class="list-item"><a href="#firstname" class="active5 active6">Contact</a></li>
 				</ul>
 			</nav>
 
 		</div>
 
-		<!-- ----------------NAVBAR_END--------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ----------------NAVBAR_END--------------------------------------------------------------------------------------------------------------------------------- -->
 
 
-		<!-- ----------------HERO_SECTION--------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ----------------HERO_SECTION--------------------------------------------------------------------------------------------------------------------------------- -->
 		<div class="container" id="hero-me">
 			<div class="hero-me">
 				<img src="bilder/images.jpeg" id="pic-me">
@@ -39,15 +38,17 @@
 				<h1 id="name-me">Sergey Hayrapetyan</h1>
 				<p id="welcome-me">Välkommen till min sida</p>
 				<div class="div-btn">
-					<button class="btn-cv">Ladda ner mitt CV</button>
-					<button class="btn-contact btn-cv">Kontakta mig</button>
+					<button class="btn-cv"><a class="download-cv" href="cv_sergey.pdf" download=""
+							target="_blank">Ladda ner mitt CV</a></a></button>
+					<button class="btn-contact btn-cv"><a href="#firstname" class="download-cv">Kontakta
+							mig</a></button>
 				</div>
 			</div>
 
 		</div>
-		<!-- ----------------HERO_SECTION_END--------------------------------------------------------------------------------------------------------------------------------- -->
+<!-- ----------------HERO_SECTION_END--------------------------------------------------------------------------------------------------------------------------------- -->
 
-		<!-------------------About----------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------About----------------------------------------------------------------------------------------------------------------------------------->
 		<div class="container-about" id="about">
 			<div class="about-me-h1">
 				<h1 class="h1-about">About Me</h1>
@@ -75,65 +76,68 @@
 			</div>
 		</div>
 
-		<!-----------------About-End---------------------------------------->
+<!-----------------About-End---------------------------------------->
 
 
 
-		<!-----------------Projects---------------------------------------->
+<!-----------------Projects---------------------------------------->
 
 		<h1 class="main-h1">Aktuella Projekt</h1>
 		<div class="container-project">
 
 			<div class="project-div">
 				<h1 class="h1-project">ZOO</h1>
-				<p class="project-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora incidunt quidem ea
-					earum blanditiis perferendis atque cupiditate consectetur, voluptates iure! Deserunt aspernatur
-					adipisci accusantium reprehenderit ex error maiores repudiandae quos, laborum tempore magni velit
-					doloribus nihil asperiores qui veritatis odit eum impedit nulla corporis praesentium exercitationem.
-					Alias numquam eveniet eum.</p><span class="git"> <a href="https://github.com/Hayra1/Zoo-project"><img class="gitlogof" src="bilder/gitlogo.png" alt=""></a></span>
+				<p class="project-p">
+					I detta projekt så jobbade jag tillsman med en klasskamerat för att bygga en Zoo hemsida. sidan är baserad på html,css och använder sig även av javascripts för att får till en slideshow.  
+				</p><span class="git"> <a
+						href="https://github.com/Hayra1/Zoo-project"><img class="gitlogof" src="bilder/gitlogo.png"
+							alt=""></a></span>
 			</div>
 			<div class="project-div">
-				<h1 class="h1-project">Flask</h1>
+				<h1 class="h1-project" id="hej">Flask</h1>
 				<p class="project-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis esse, quod
 					repudiandae maiores fuga, recusandae aspernatur ipsam magni aperiam architecto non molestias, illo
 					sed dolores eveniet corrupti iste voluptate enim magnam. Architecto labore modi blanditiis animi
 					iusto praesentium placeat, dolores debitis, a nemo harum natus unde molestiae, reiciendis minima ea?
-				</p> <span class="git"> <a href="https://github.com/Hayra1/Zoo-project"><img class="gitlogof" src="bilder/gitlogo.png" alt=""></a></span>
+				</p> <span class="git"> <a href="https://github.com/Hayra1/Zoo-project"><img class="gitlogof"
+							src="bilder/gitlogo.png" alt=""></a></span>
 			</div>
 		</div>
-		<!----------------Projects-End---------------------------------------->
+<!----------------Projects-End---------------------------------------->
 
 
-		<!----------------Contact----------------------------------------->
-		<h1 class="main-h1" id="h1-contact">Intreserad? Kontakta mig via fomuläret nedan  </h1> 
+<!----------------Contact----------------------------------------->
+		<h1 class="main-h1" id="h1-contact">Intreserad? Kontakta mig via fomuläret nedan </h1>
 		<div class="arrow"><img class="arrowpic" src="bilder/arrow.png" alt="arrow"></div>
 
 
-	<div class="container-form">
-		<div class="firstname">
-			<form action="action_page.php">
-				<label  for="fname">First Name <span><img class="arrow-form" src="bilder/arrow.png" alt=""></span></label>
-				<input class="inputforme" type="text" id="fname" name="firstname" placeholder="Ditt namn..">
+		<div class="container-form">
+			<div class="firstname">
+				<form action="action_page.php" id="firstname">
+					<label for="fname">First Name <span><img class="arrow-form" src="bilder/arrow.png"
+								alt=""></span></label>
+					<input class="inputforme" type="text" id="fname" name="firstname" placeholder="Ditt namn..">
+			</div>
+			<div class="firstname" id="lastname">
+				<label for="lname">Last Name <span><img class="arrow-form" src="bilder/arrow.png" alt=""></span>
+				</label>
+				<input class="inputforme" type="text" id="lname" name="lastname" placeholder="Ditt efternamn..">
+
+			</div>
+
+
+			<div class="email">
+				<label for="email">Email <span><img class="arrow-form" src="bilder/arrow.png" alt=""></span> </label>
+				<input class="inputforme" type="email" id="email" name="email" placeholder="Din email..">
+			</div>
+
+
+			</form>
 		</div>
-		<div class="firstname" id="lastname">
-			<label for="lname">Last Name <span><img class="arrow-form" src="bilder/arrow.png" alt=""></span> </label>
-			<input class="inputforme" type="text" id="lname" name="lastname" placeholder="Ditt efternamn..">
-			
+		<div class="btn-submit1">
+			<input class="btn-submit btn-cv" type="submit" value="Submit">
 		</div>
-
-		
-		<div class="email">
-			<label for="email">Email <span><img class="arrow-form" src="bilder/arrow.png" alt=""></span> </label>
-			<input  class="inputforme"type="email" id="email" name="email" placeholder="Din email..">
-		</div>
-
-		
-	</form>
-	</div>
-	<div class="btn-submit1">
-		<input class="btn-submit btn-cv" type="submit" value="Submit">
-	</div>
-	<!----------------Contact-End---------------------------------------->
+<!----------------Contact-End---------------------------------------->
 
 
 
@@ -141,28 +145,32 @@
 
 
 
+<!-----------------------------Footer-start------------------------------------->
 
+		<footer>
+			<div class="social-media">
+				<h1 class="h1-social-media">Sociala Medier</h1>
+				<a href="https://github.com/Hayra1?tab=overview&from=2024-03-01&to=2024-03-25">
+					<img class="gitlogo-footer" src="bilder/gitlogo.png" alt="gitlogo"></a>
+				
+					<a href="https://www.linkedin.com/in/sergey-hayrapetyan-b728b7107/"><img class="gitlogo-footer" src="bilder/Linkedin.png" alt="linkedinlogo"></a>
+				<a href="sergeyhayrapetyanhotmail.com"><img class="gitlogo-footer" src="bilder/gmail_email.png" alt=""></a>
+			</div>
 
-	<footer>
-		<div class="social-media">
-			<h1 class="h1-social-media">Sociala Medier</h1>
-			<img class="gitlogo-footer" src="bilder/gitlogo.png" alt="gitlogo">
-			<img class="gitlogo-footer" src="bilder/Linkedin.png" alt="linkedinlogo">
-			<img class="gitlogo-footer" src="bilder/gmail.png" alt="">
-		</div>
+			<div class="newsletter">
+				<h1 class="h1-newsletter">Nyhetsbrev</h1>
+				<label for="mail">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Fyll i ditt Mail..">
+				<input type="submit" value="Prenumerera"></label>
+			</div>
 
-		<div class="newsletter" >
-			<h1 class="h1-newsletter">Nyhetsbrev</h1>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" placeholder="Fyll i ditt Mail..">
-			<input type="submit" value="Prenumerera"></label>
-		</div>
+			<div class="cv-footer ">
+				<button class="btn-contact btn-cv"><a class="download-cv" href="cv_sergey.pdf" download=""
+					target="_blank">Ladda ner mitt CV</a></a></button>
+			</div>
+		</footer>
 
-		<div  class="cv-footer">
-			<button>Ladda ner mitt CV </button>
-
-		</div>
-	</footer>
+<!-----------------------------Footer-End------------------------------------->
 
 
 
