@@ -369,8 +369,8 @@ box-shadow: 0 0 15px var(--btncolor);
 	width: 100px;
 }
 .gitlogof{
-	margin-top: 65px;
-	width: 100px;
+	margin-top: 20px;
+	width: 20%;
 	cursor: pointer;
 	transition: 0.6s;
 	box-shadow: 0 0 20px var(--btncolor);
@@ -381,10 +381,11 @@ box-shadow: 0 0 15px var(--btncolor);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 10vh;
 }
 .gitlogof:hover{
-	width: 115px;
-	box-shadow: 0 0 20px var(--btncolor);
+	width: 15%;
+	box-shadow: 0 0 1x var(--btncolor);
 	border-radius: 49px;
 }
 
@@ -400,9 +401,33 @@ box-shadow: 0 0 15px var(--btncolor);
 
 
 	footer{
-		height: 8vh;
+		height: 25vh;
+		display: flex;
+		justify-content: space-around;
 		background-color: var(--dark-grey);
 	}
+
+.h1-social-media{
+	
+}
+.gitlogo-footer{
+	width: 50px;
+}
+
+.social-media{
+	display: flex;
+	flex-direction: column;
+	
+}
+.newsletter{
+display: flex;
+flex-direction: column;
+
+}
+
+ 
+
+
 
 
 
