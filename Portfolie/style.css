@@ -320,6 +320,31 @@ li a:hover {
 
 /*--------------------projects-End----------------------------------------*/
 
+
+/*----------------skills---------------------*/
+
+.container-skills1{
+	background-color: var(--grey);
+	display: flex;
+	justify-content: space-around;
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+	
+	
+}
+
+.skills-div img{
+width: 70px;	
+margin: 25px;
+	transition: 1s;
+}
+
+.skills-div img:hover{
+	cursor: pointer;
+}
+
+
 /*--------------------contact-----------------------------------------------*/
 #h1-contact {
 	display: flex;
@@ -429,6 +454,9 @@ li a:hover {
 
 /*--------------------contact-end-----------------------------------------------*/
 
+
+/*---------------------------- reference-----------------------------*/
+
 .refrence{
 	height: 70vh;
 	background-color: var(--grey);
@@ -452,6 +480,7 @@ li a:hover {
 .refrence div h5{
 	color: var(--orange);
 	text-align: center;
+	font-size: 28px;
 
 }
 .refrence div p{
@@ -464,6 +493,9 @@ li a:hover {
 	background-color: var(--dark-grey);
 	border: none;
 }
+/*-----------------------------------refernce end ----------------*/
+
+
 
 
 
