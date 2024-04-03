@@ -6,10 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
-
-
 </head>
 <!-- ----------------NAVBAR--------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -21,7 +17,9 @@
 					<li class="list-item"><a href="#hero-me" class="active1 active6">Home</a></li>
 					<li class="list-item"><a href="#about" class="active2 active6">About</a></li>
 					<li class="list-item"><a href="#hej" class="active3 active6">Projects</a></li>
+					<li class="list-item"><a href="#ref" class="active5 active6">Referencer</a></li>
 					<li class="list-item"><a href="#firstname" class="active5 active6">Contact</a></li>
+
 				</ul>
 			</nav>
 
@@ -31,7 +29,7 @@
 
 
 		<!-- ----------------HERO_SECTION--------------------------------------------------------------------------------------------------------------------------------- -->
-		<div class="container" id="hero-me">
+		<div class="container1" id="hero-me">
 			<div class="hero-me">
 				<img src="bilder/images.jpeg" id="pic-me">
 			</div>
@@ -50,7 +48,7 @@
 		<!-- ----------------HERO_SECTION_END--------------------------------------------------------------------------------------------------------------------------------- -->
 
 		<!-------------------About----------------------------------------------------------------------------------------------------------------------------------->
-		<div class="container-about" id="about">
+		<div class="container-about1" id="about">
 			<div class="about-me-h1">
 				<h1 class="h1-about">Om mig</h1>
 				<p class="about-p">Jag är en mycket social person med en vänlig och trevlig inställning. Att interagera
@@ -89,8 +87,8 @@
 
 		<!-----------------Projects---------------------------------------->
 
-		<h1 class="main-h1">Aktuella Projekt</h1>
-		<div class="container-project">
+		<h1 class="main-h11">Aktuella Projekt</h1>
+		<div class="container-project1">
 
 			<div class="project-div">
 				<h1 class="h1-project">ZOO</h1>
@@ -108,8 +106,7 @@
 					utformad för att hantera en bokdatabas. Användare kan utföra olika operationer såsom att lägga till,
 					uppdatera och ta bort böcker, samt lämna recensioner för böcker. Applikationen inkluderar också
 					funktioner såsom att söka efter böcker, hämta högst betygsatta böcker och hämta information om
-					författare med hjälp av externa API:er. Klicka på gitloggot nedan för att se koden.</p><span
-					class="git"><a href="https://github.com/Hayra1/">
+					författare med hjälp av externa API:er.</p><span class="git"><a href="https://github.com/Hayra1/">
 						</p> <span class="git"> <a href="https://github.com/Hayra1/Zoo-project"><img class="gitlogof"
 									src="bilder/gitlogo.png" alt=""></a></span>
 			</div>
@@ -117,68 +114,97 @@
 		<!----------------Projects-End---------------------------------------->
 
 
-		<!----------------Contact----------------------------------------->
-		<h1 class="main-h1" id="h1-contact">Intreserad? Kontakta mig via fomuläret nedan </h1>
-		<div class="arrow"><img class="arrowpic" src="bilder/arrow.png" alt="arrow"></div>
-
-
-		<div class="container-form">
-			<div class="firstname">
-				<form action="action_page.php" id="firstname">
-					<label for="fname">Namn <span><img class="arrow-form" src="bilder/arrow.png"
-								alt=""></span></label>
-					<input class="inputforme" type="text" id="fname" name="firstname" placeholder="Ditt namn..">
+		<!------------------References-Start------------------------------------------------>
+		<h1 class="refrence-h1" id="ref">Referencer</h1>
+		<div class="refrence">
+			<div>
+				<h5>Elina Hägerström</h5>
+				<p>Sergey har varit en värdefull medarbetare hos oss på Leos Lekland. Han arbetade här för några år sedan,
+					och vi uppskattade den tid han spenderade med oss.
+				</p>
 			</div>
-			<div class="firstname" id="lastname">
-				<label for="lname">Meddelande<span><img class="arrow-form" src="bilder/arrow.png" alt=""></span>
-				</label>
-				<input class="inputforme" type="text" id="lname" name="lastname" placeholder="Skriv ditt meddelande..">
-
+			<div>
+				<h5>Smilla Liden</h5>
+				<p>Att jobba som konsult på Circle K är inget lätt arbete, det kräver flexibilitet och anpassningsförmåga.
+					Sergey är inte bara en person som identifierar utmaningar utan också tar initiativ för att hitta
+					lösningar på dem. Han är en mycket social och trevlig kille.
+				</p>
+			</div>
+			<div>
+				<h5>Simon Hayrapetyan</h5>
+				<p>
+					Jag har varit Sergeys arbetsledare inom byggbranschen. Han är snabbtänkt och har hög social kompetens.
+					Kundservice är något som han kan hantera tack vare sin goda kommunikationsförmåga.
+				</p>
 			</div>
 
 
-			<div class="email">
-				<label for="email">Email <span><img class="arrow-form" src="bilder/arrow.png" alt=""></span> </label>
-				<input class="inputforme" type="email" id="email" name="email" placeholder="Din email.." required>
-			</div>
-
-
-			</form>
 		</div>
-		<div class="btn-submit1">
-			<input class="btn-submit btn-cv" type="submit" value="Submit">
+	</div>
+	<!---------------------References-End-------------------------------------------------->
+
+	<!----------------Contact----------------------------------------->
+	<h1 class="main-h11" id="h1-contact">Intreserad? Kontakta mig </h1>
+	<div class="arrow"><img class="arrowpic" src="bilder/arrow.png" alt="arrow"></div>
+
+
+	<div class="container-form1">
+		<div class="firstname1" id="firstname">
+			<form action="https://http-echo-server.azurewebsites.net/api/httpEchoDemo">
+				<label for="fname">Namn <span><img class="arrow-form1" src="bilder/arrow.png" alt=""></span></label>
+				<input class="inputforme1" type="text" id="fname" name="firstname" placeholder="Ditt namn..">
 		</div>
-		<!----------------Contact-End---------------------------------------->
+		<div class="firstname1" id="lastname">
+			<label for="lname">Meddelande<span><img class="arrow-form1" src="bilder/arrow.png" alt=""></span>
+			</label>
+			<input class="inputforme1" type="text" id="lname" name="lastname" placeholder="Skriv ditt meddelande..">
+
+		</div>
+
+
+		<div class="email1">
+			<label for="email">Email <span><img class="arrow-form1" src="bilder/arrow.png" alt=""></span> </label>
+			<input class="inputforme1" type="email" id="email" name="email" placeholder="Din email.." required>
+		</div>
+
+
+			
+				<input class="btn-submit2 btn-cv" type="submit" value="Submit">
+	
+		
+
+
+		</form>
+	</div>
+	
+	<!----------------Contact-End---------------------------------------->
 
 
 
+	<!-----------------------------Footer-start------------------------------------->
 
+	<footer>
+		<div class="social-media">
+			<a href="https://github.com/Hayra1?tab=overview&from=2024-03-01&to=2024-03-25">
+				<img class="gitlogo-footer" src="bilder/gitlogo.png" alt="gitlogo"></a>
 
+			<a href="https://www.linkedin.com/in/sergey-hayrapetyan-b728b7107/"><img class="gitlogo-footer"
+					src="bilder/Linkedin.png" alt="linkedinlogo"></a>
+			<a href="sergeyhayrapetyanhotmail.com"><img class="gitlogo-footer" src="bilder/gmail.png" alt=""></a>
+		</div>
 
+		<div class="cv-footer ">
+			<button class="btn-contact btn-cv"><a class="download-cv" href="cv_sergey.pdf" download=""
+					target="_blank">Ladda ner mitt CV</a></a></button>
+		</div>
+	</footer>
 
-		<!-----------------------------Footer-start------------------------------------->
-
-		<footer>
-			<div class="social-media">
-				<a href="https://github.com/Hayra1?tab=overview&from=2024-03-01&to=2024-03-25">
-					<img class="gitlogo-footer" src="bilder/gitlogo.png" alt="gitlogo"></a>
-
-				<a href="https://www.linkedin.com/in/sergey-hayrapetyan-b728b7107/"><img class="gitlogo-footer"
-						src="bilder/Linkedin.png" alt="linkedinlogo"></a>
-				<a href="sergeyhayrapetyanhotmail.com"><img class="gitlogo-footer" src="bilder/gmail.png" alt=""></a>
-			</div>
-
-			<div class="cv-footer ">
-				<button class="btn-contact btn-cv"><a class="download-cv" href="cv_sergey.pdf" download=""
-						target="_blank">Ladda ner mitt CV</a></a></button>
-			</div>
-		</footer>
-
-		<!-----------------------------Footer-End------------------------------------->
+	<!-----------------------------Footer-End------------------------------------->
 
 
 
 	</div>
+
 </body>
 
 </html>

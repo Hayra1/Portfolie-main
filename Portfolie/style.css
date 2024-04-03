@@ -62,7 +62,7 @@ li a {
 	margin-left: 10px;
 	margin-right: 10px;
 	margin-top: 15px;
-	width: 95px;
+	width: 115px;
 
 
 
@@ -74,7 +74,8 @@ li a {
 
 
 li a:hover {
-	font-size: 23px;
+	font-size: 21px;
+	margin-right: 20px;
 	color: var(--dark-grey);
 	background-color: var(--lighter-grey);
 	border-color: var(--btncolor);
@@ -103,7 +104,7 @@ li a:hover {
 
 /* ------------Hero-Start-------------------------------------- */
 
-.container {
+.container1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -116,11 +117,11 @@ li a:hover {
 }
 
 .hero-me {
-	margin-top: 120px;
 	transform: 2s ease-in;
 	box-shadow: 0 0 10px var(--lighter-grey);
 	box-shadow: 0 0 10px var(--lighter-grey);
-	border-radius: 46%;
+	border-radius: 25%;
+	display: block;
 }
 
 .hero-me-text {
@@ -181,8 +182,8 @@ li a:hover {
 }
 
 #pic-me {
-	height: 50vh;
-	border-radius: 48%;
+	height: 52vh;
+	border-radius: 60%;
 	transition: 1.3s;
 }
 
@@ -196,7 +197,7 @@ li a:hover {
 
 
 /* ------------------About-Start---------------------------------- */
-.container-about {
+.container-about1 {
 	height: 90vh;
 	width: 100vw;
 	display: flex;
@@ -239,7 +240,7 @@ li a:hover {
 	color: var(--black);
 }
 
-.container-project {
+.container-project1 {
 	height: 80vh;
 	width: 100vw;
 	display: flex;
@@ -272,10 +273,11 @@ li a:hover {
 
 }
 
-.main-h1 {
+.main-h11 {
 	text-align: center;
 	background-color: var(--grey);
 	color: var(--white);
+	margin-bottom: 0;
 
 }
 
@@ -349,8 +351,8 @@ li a:hover {
 /*-------------------------------------------------------*/
 
 
-.container-form {
-	height: 20vh;
+.container-form1 {
+	height: 30vh;
 	background-color: var(--grey);
 
 	display: flex;
@@ -359,7 +361,7 @@ li a:hover {
 
 }
 
-.firstname {
+.firstname1{
 	flex-direction: row;
 }
 
@@ -371,22 +373,22 @@ li a:hover {
 
 .btn-submit1 {
 	background-color: var(--grey);
-	display: flex;
-	justify-content: center;
-	padding-bottom: 100px;
+	
+	
 
 
 }
 
-.btn-submit {
-	padding-left: 37px;
-	padding-right: 37px;
+.btn-submit2 {
 	width: 200px;
-	margin-left: 25px;
+	margin-left: 20px;
+	margin-top: 49px;
+	
+	
 
 }
 
-.inputforme {
+.inputforme1 {
 	padding: 20px;
 	border-radius: 15px;
 	border-color: none;
@@ -405,7 +407,7 @@ li a:hover {
 }
 
 
-label {
+.container-form1 label {
 	display: block;
 	padding-left: 26px;
 
@@ -418,7 +420,7 @@ label {
 	padding-left: 0;
 }
 
-.arrow-form {
+.arrow-form1 {
 	padding-right: 5.5px;
 
 	width: 20px;
@@ -427,6 +429,41 @@ label {
 
 /*--------------------contact-end-----------------------------------------------*/
 
+.refrence{
+	height: 70vh;
+	background-color: var(--grey);
+	display: flex;
+	justify-content: space-evenly; 
+	padding-bottom: 250px;
+}
+.refrence-h1{
+	text-align: center;
+	background-color: var(--grey);
+	margin: 0;
+	padding-bottom: 50px;
+	color: var(--lighter-grey);
+}
+.refrence div{
+	background-color: var(--dark-grey);
+	color: var(--lighter-grey);
+	width: 450px;
+}
+
+.refrence div h5{
+	color: var(--orange);
+	text-align: center;
+
+}
+.refrence div p{
+	padding: 20px;
+	font-size: 20px;
+}
+
+
+.bg-1{
+	background-color: var(--dark-grey);
+	border: none;
+}
 
 
 
@@ -439,7 +476,7 @@ footer {
 	background-color: var(--dark-grey);
 }
 
-.h1-social-media {}
+
 
 .gitlogo-footer {
 	width: 50px;
@@ -452,7 +489,11 @@ footer {
 	display: flex;
 	justify-content: center;
 	padding-top: 20px;
-	
+}
+.social-media,img{
+	margin: 8px;
+	margin-top: 0;
+
 }
 
 
@@ -468,8 +509,6 @@ footer {
 }
 
 /*------------------------footer-end----------------------*/
-
-
 
 /* ----------------------WEb RESPONSIV------------------------------------------------*/
 
@@ -549,8 +588,7 @@ footer {
 
 	}
 
-	.container
-}
+
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
 
