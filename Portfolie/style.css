@@ -182,13 +182,13 @@ li a:hover {
 }
 
 #pic-me {
-	height: 52vh;
+	height: 50vh;
 	border-radius: 60%;
 	transition: 1.3s;
 }
 
 #pic-me:hover {
-	transform: scale(1.05);
+	transform: scale(1.01);
 	box-shadow: 0 0 15px var(--btncolor);
 }
 
