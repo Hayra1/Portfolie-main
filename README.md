@@ -3,7 +3,7 @@
 My Home Page
 
 ## Description
- Portfolie is a personal website created by me Sergey to showcase my portfolio, skills, projects, and contact information. It includes sections such as a hero section, about me, projects, skills, references, and contact form.
+ Portfolio is a personal website created by me Sergey to showcase my portfolio, skills, projects, and contact information. It includes sections such as a hero section, about me, projects, skills, references, and contact form.
 
 ## Screenshots
 
