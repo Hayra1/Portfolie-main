@@ -27,8 +27,10 @@
 
 body,
 html {
+	margin: 0;
+	padding: 0;
 	height: 100%;
-	width: 100%;
+
 	scroll-behavior: smooth;
 	font-family: Roboto-regular-font;
 
@@ -543,216 +545,88 @@ footer {
 /*------------------------footer-end----------------------*/
 
 /* ----------------------WEb RESPONSIV------------------------------------------------*/
-
-
-@media only screen and (max-width: 480px) and (min-width: 279px) {
-
-	body {
-		background-color: #dc2c2c;
+@media (max-width: 768px) {
+	.container-about1, .container-project1, .container-skills1, .container-form1, .refrence {
+		 flex-direction: column;
+		 align-items: center;
 	}
 
-	.container-web {
-		width: 87vh;
+	footer{
+		height: 45vw;
 	}
 
-	.nav-container {
-		width: 87vh;
-
-	}
-
-	.container {
-		width: 100%;
-	}
-
-	.hero-me-text {
-		width: 100%;
-		margin-top: 0;
-	}
-
-	.hero-me {
-		width: 30vh;
-	}
-
-	.container-about {
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		height: 100%;
-		width: 87vh;
-	}
-
-	.about-me-h1 {
-		width: 80%;
-		margin: 10px;
-
-
-	}
-
-	.h1-about {
-		font-size: 15px;
-
-	}
-
-	.about-p {
-		font-size: 10px;
-		margin-top: 5px;
-	}
-
-	.project-div {
-		width: 87vh;
-	}
-
-
-	#welcome-me {
-		font-size: 20px;
-		padding-left: 20px;
-		text-align: center;
+	.about-me-h1, .project-div, .inputforme1, .refrence div {
+		 width: 90%;
+		 font-size: 18px;
 	}
 
 	#name-me {
-		font-size: 30px;
-		padding-left: 20px;
-		margin-top: 0;
+		 font-size: 32px;
 	}
 
-	#pic-me {
-		height: 30vh;
-
+	.main-h11{
+		padding-top: 200px;
+	}
+	.git{
+		padding-top: 0;
+		padding-bottom: 35px;
+	}
+	.container-skills1{
+		padding-top: 0;
 	}
 
-
-
-@media only screen and (max-width: 768px) and (min-width: 481px) {
-
-	.hero-me-text {
-		height: 10vh;
-		width: 100%;
-		margin-top: 0;
+	.about-p, .project-p {
+		 font-size: 18px;
+		 margin-top: 20px;
 	}
+	.container-about1, .container-project1, .container-skills1, .container-form1, .refrence  {
+		padding-bottom: 100px; 
+  }
 
-	.hero-me {
-		height: 40vh;
-		width: 40vh;
+  .container-about1, .container-project1, .container-skills1, .container-form1, .refrence {
+	height: 100vh; 
+	padding-bottom: 50px; 
+}
+}
 
-	}
-
-	.container-about {
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		height: 100%;
-		width: 73.06vh;
-	}
-
-	.about-me-h1 {
-		width: 100%;
-		margin: 10px;
-
-
-	}
-
-	.h1-about {
-		font-size: 15px;
-
-	}
-
-	.about-p {
-		font-size: 10px;
-		margin-top: 5px;
-	}
-
-
-	#welcome-me {
-		font-size: 25px;
-	}
-
+@media (max-width: 480px) {
 	#name-me {
-		font-size: 40px;
-		padding-left: 20px;
-		margin-top: 0;
+		 font-size: 24px;
 	}
 
-	#pic-me {
-		height: 40vh;
-
+.nav-container,.container1,.container-about1,.container-project1,.container-skills1,.refrence-h1,.refrence,.container-form1,.arrow, footer{
+		width: 100vh;
 	}
 
 
+.main-h11{
+	width: 100vh;
+	padding-top: 300px;
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
-	.hero-me-text {
-		height: 100%;
-		width: 100%;
-		align-items: center;
+	.about-me-h1, .project-div, .inputforme1, .refrence div {
+		 width: 95%;
+		 font-size: 16px;
 	}
 
-	.hero-me {
-		height: 100%;
+	.about-p, .project-p {
+		 font-size: 16px;
+		 margin-top: 15px;
 	}
-
-	.container-about {
-		height: 100vh;
-
-
-	}
-
-	.about-p {
-		font-size: 15px;
-	}
-
-
+	.container-about1, .container-project1, .container-skills1, .container-form1, .refrence, .main-h11 {
+		padding-bottom: 100px; 
+  }
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 1024px) {
-
-	.hero-me-text {
-		height: 100%;
-		width: 100%;
-		margin-top: 0;
+@media (min-width: 1200px) {
+	.container-about1, .container-project1, .container-skills1, .container-form1, .refrence {
+		 padding: 0 100px;
 	}
-
-	.hero-me {
-		height: 100%;
-	}
-
-	.about-p {
-		font-size: 19px;
-		margin-top: 15px;
-	}
-
-
+	.container-about1, .container-project1, .container-skills1, .container-form1, .refrence, .main-h11 {
+		padding-bottom: 100px; 
+  }
+ 
 }
 
-@media only screen and (max-width: 1536px) and (min-width: 1280px) {
-
-	.hero-me-text {
-		height: 100%;
-		width: 100%;
-		margin-top: 0;
-	}
-
-	.hero-me {
-		height: 70vh;
-	}
-
-	.about-p {
-		font-size: 24px;
-	}
-
-}
-
-@media only screen and (max-width: 1920px) and (min-width: 1537px) {
-	.hero-me-text {
-		height: 100%;
-		width: 100%;
-		margin-top: 0;
-	}
-
-	.hero-me {
-		height: 80vh;
-	}
-
-}
 
 /*-------------------------WEB RESPOSIVE END-----------------------------------------
